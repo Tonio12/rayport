@@ -1,0 +1,129 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rayport</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <div class="cont">
+        <div class="logo-container">
+          <img class="logo" src="img/logo.jpeg" alt="Logo" />
+          <span style="font-weight: bold">RAYPORT</span>
+        </div>
+
+        <div class="search-bar">
+          <input id="searchInput" type="text" placeholder="Search..." />
+          <button type="submit" id="searchButton">Search</button>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero  section -->
+    <div class="hero">
+      <div class="hero-content">
+        <h1>
+          <span class="stroke-text">Rayport</span> : Navigating Tomorrow's
+          Deliveries
+        </h1>
+        <p>Efficient, Reliable, Global Shipping Solutions</p>
+        <a href="products.html" class="cta-button">Explore Services</a>
+      </div>
+      <div class="hero-image"></div>
+    </div>
+
+    <div class="about">
+      <div class="about-video">
+        <video id="aboutVideo" controls>
+          <source src="img/Passport.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="about-content">
+        <h2 style="color: black">What We Do</h2>
+        <p>
+          Rayport is a global leader in providing efficient and reliable
+          shipping solutions. With a commitment to excellence, we navigate the
+          complexities of logistics to ensure seamless deliveries across the
+          world.
+        </p>
+        <a href="about.html" class="cta-button">Learn More</a>
+      </div>
+    </div>
+
+    <div class="products">
+      <h2>Our <span class="stroke-text">Products</span></h2>
+      <div class="product-container">
+        <div class="product-item">
+          <img src="img/Bed.jpg" alt="Product 1" />
+          <p>Bed</p>
+          <p class="price">$19.99</p>
+          <p class="old">$9.99</p>
+          <p class="items-left">10 items left</p>
+          <div class="items-left-bar"></div>
+        </div>
+        <div class="product-item">
+          <img src="img/mini fridge.jpg" alt="Product 2" />
+          <p>Fridge</p>
+          <p class="price">$29.99</p>
+          <p class="old">$19.99</p>
+          <p class="items-left">10 items left</p>
+          <div class="items-left-bar"></div>
+        </div>
+        <div class="product-item">
+          <img src="img/silver dishes.jpg" alt="Product 3" />
+          <h5>Silver Dish</h5>
+          <p class="price">$39.99</p>
+          <p class="old" style="font-size: small">$29.99</p>
+          <p class="items-left">10 items left</p>
+          <div class="items-left-bar"></div>
+        </div>
+      </div>
+      <a href="products.html" class="cta-button">View All Products</a>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <p>Feel free to connect with us on social media!</p>
+      <div class="social-links">
+        <a href="#" target="_blank" class="social-link"
+          ><img id="animatedGif" src="img/icons8-facebook.gif" alt="Facebook"
+        /></a>
+        <a href="#" target="_blank" class="social-link"
+          ><img id="animatedGif" src="img/icons8-twitter.gif" alt="Twitter"
+        /></a>
+        <a href="#" target="_blank" class="social-link"
+          ><img id="animatedGif" src="img/icons8-instagram.gif" alt="Instagram"
+        /></a>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
